@@ -1,16 +1,17 @@
 const HowItWorks = () => {
   return (
     <>
-      <section className="border border-red-500 mt-28 flex flex-col items-end justify-start gap-[86px] max-w-full text-center text-49xl text-white font-poppins">
-        <div className="w-[1308px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
-          <h1 className="m-0 w-[854px] relative text-inherit tracking-[6px] leading-[52px] font-semibold font-[inherit] inline-block max-w-full ">
+      <section className="mt-28 flex flex-col items-end justify-start gap-[86px] max-w-full text-center text-white font-poppins">
+        <div className="flex flex-row items-start justify-center py-0 px-5 box-border w-full">
+          <h1 className="m-0 text-inherit tracking-[6px] leading-[52px] font-semibold font-[inherit] inline-block text-[68px]">
             How FlowWrite Works
           </h1>
         </div>
-        <div className="self-stretch flex flex-row items-start justify-center gap-[52px] max-w-full text-left text-xl text-gainsboro font-h1 mq1125:flex-wrap">
-          <div className="flex-1 flex flex-col items-start justify-start gap-[119px] min-w-[582px] max-w-full">
-            <div className="w-[381px] [backdrop-filter:blur(5px)] rounded-lg bg-gray-800 flex flex-row items-start justify-start pt-[17px] px-[29px] pb-[14.5px] box-border gap-8 max-w-full z-[2]">
-              <div className="h-[87px] w-[381px] relative [backdrop-filter:blur(5px)] rounded-lg bg-gray-800 hidden max-w-full"></div>
+
+        <div className="relative flex flex-row items-start  text-left text-xl text-gainsboro font-h1 w-full h-[550px] overflow-y-hidden">
+          <div className="relative flex-1 flex flex-col items-start justify-start gap-[119px] min-w-[582px] max-w-full">
+
+            <div className="absolute left-[68px] top-[-8px] w-[381px] [backdrop-filter:blur(5px)] rounded-lg bg-gray-800 flex flex-row items-start justify-start pt-[17px] px-[29px] pb-[14.5px] box-border gap-8 z-[2]">
               <div className="flex flex-col items-start justify-start pt-[5px] px-0 pb-0">
                 <img
                   className="w-[42px] h-[43px] relative object-cover z-[3]"
@@ -22,7 +23,8 @@ const HowItWorks = () => {
                 Sign up and create a profile.{" "}
               </div>
             </div>
-            <div className="w-[401px] flex flex-row items-start justify-start pt-0 pb-[30px] pl-0 pr-5 box-border max-w-full text-left text-xl text-gainsboro font-h1 ">
+
+            <div className="absolute left-[68px] top-[180px] w-[401px] flex flex-row items-start justify-start pt-0 pb-[30px] pl-0 pr-5 box-border max-w-full text-left text-xl text-gainsboro font-h1 ">
               <div className="flex-1 [backdrop-filter:blur(5px)] rounded-lg bg-gray-800 flex flex-row items-start justify-start pt-[15px] pb-[5px] pl-[29px] pr-[22px] box-border gap-6 max-w-full z-[2]">
                 <div className="h-[87px] w-[381px] relative [backdrop-filter:blur(5px)] rounded-lg bg-gray-800 hidden max-w-full"></div>
                 <div className="flex flex-col items-start justify-start pt-3.5 px-0 pb-0">
@@ -37,7 +39,8 @@ const HowItWorks = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[401px] flex flex-row items-start justify-start pt-0 pb-[30px] pl-0 pr-5 box-border max-w-full text-left text-xl text-gainsboro font-h1 ">
+
+            <div className="absolute left-[68px] top-[430px] w-[401px] flex flex-row items-start justify-start pt-0 pb-[30px] pl-0 pr-5 box-border max-w-full text-left text-xl text-gainsboro font-h1">
               <div className="flex-1 [backdrop-filter:blur(5px)] rounded-lg bg-gray-800 flex flex-row items-start justify-start pt-[15px] pb-[5px] pl-[29px] pr-[22px] box-border gap-6 max-w-full z-[2]">
                 <div className="h-[87px] w-[381px] relative [backdrop-filter:blur(5px)] rounded-lg bg-gray-800 hidden max-w-full"></div>
                 <div className="flex flex-col items-start justify-start pt-3.5 px-0 pb-0">
@@ -52,10 +55,12 @@ const HowItWorks = () => {
                 </div>
               </div>
             </div>
+
           </div>
-          <div className="w-[381px] flex flex-col items-start justify-start pt-[134px] px-0 pb-0 box-border min-w-[381px] max-w-full font-poppins ">
-            <div className="self-stretch flex flex-col items-start justify-start gap-[100px] max-w-full">
-              <div className="self-stretch [backdrop-filter:blur(5px)] rounded-lg bg-gray-700 flex flex-row items-start justify-start pt-4 pb-[15.1px] pl-[22px] pr-0 box-border gap-3.5 max-w-full z-[2]">
+
+          <div className="relative w-[500px] flex flex-col items-start justify-start pt-[134px] px-0 pb-0 box-border min-w-[381px] max-w-full font-poppins ">
+            <div className="flex flex-col items-start justify-start gap-[100px] max-w-full">
+              <div className="w-[401px] [backdrop-filter:blur(5px)] rounded-lg bg-gray-700 flex flex-row items-start justify-start pt-4 pb-[15.1px] pl-[22px] pr-0 box-border gap-3.5 max-w-full z-[2]">
                 <div className="h-[87px] w-[381px] relative [backdrop-filter:blur(5px)] rounded-lg bg-gray-700 hidden max-w-full"></div>
                 <div className="flex flex-col items-start justify-start pt-1 px-0 pb-0">
                   <img
@@ -68,7 +73,8 @@ const HowItWorks = () => {
                   Utilize AI tools for drafting and feedback.
                 </div>
               </div>
-              <div className="self-stretch [backdrop-filter:blur(5px)] rounded-lg bg-gray-700 flex flex-row items-start justify-start pt-4 px-6 pb-1 box-border gap-[31px] max-w-full z-[2] font-h1">
+
+              <div className="w-[401px]  [backdrop-filter:blur(5px)] rounded-lg bg-gray-700 flex flex-row items-start justify-start pt-4 px-6 pb-1 box-border gap-[31px] max-w-full z-[2] font-h1">
                 <div className="h-[87px] w-[381px] relative [backdrop-filter:blur(5px)] rounded-lg bg-gray-700 hidden max-w-full"></div>
                 <div className="flex flex-col items-start justify-start pt-2.5 px-0 pb-0">
                   <img
@@ -83,7 +89,8 @@ const HowItWorks = () => {
               </div>
             </div>
           </div>
-          <div class="absolute top-[4700px] left-[392px] rounded-2xs [background:linear-gradient(180deg,_#d9d9d9,_#737373)] border-black border-[0px] border-solid box-border w-[708px] flex flex-row items-start justify-start pt-[212px] px-[266px] pb-[211px] max-w-full z-[1]">
+
+          <div class="absolute top-[0px] left-[380px] rounded-2xs [background:linear-gradient(180deg,_#d9d9d9,_#737373)] border-black border-[0px] border-solid box-border w-[708px] flex flex-row items-start justify-start pt-[212px] px-[266px] pb-[211px] max-w-full z-[1]">
             <img
               class="h-[475px] w-[708px] relative rounded-2xs hidden max-w-full"
               alt=""
@@ -93,7 +100,9 @@ const HowItWorks = () => {
               slide show
             </div>
           </div>
+
         </div>
+
       </section>
     </>
   );

@@ -4,6 +4,9 @@ import Navbar from "@/components/Navbar";
 import Rectangle53 from "../../public/rectangle-53.svg";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
+import Waitlist from "@/components/Waitlist";
+import Footer from "@/components/Footer";
+import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
@@ -141,6 +144,9 @@ export default function Home() {
           {/* Card components starts */}
           <Features />
           <HowItWorks/>
+          <Waitlist/>
+          <Testimonial/>
+          <Footer/>
         </div>
       </main>
     </>

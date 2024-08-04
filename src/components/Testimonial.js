@@ -40,7 +40,7 @@ const Testimonial = () => {
               </div>
             </div>
             <img
-              class="absolute -top-4 left-1/2 transform -translate-x-1/2 w-[70px] h-[70px] lg:w-[107px] lg:h-[107px] object-cover z-[2]"
+              className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-[70px] h-[70px] lg:w-[107px] lg:h-[107px] object-cover z-[2]"
               alt=""
               src="/mask-group-2@2x.png"
             ></img>
@@ -65,7 +65,7 @@ const Testimonial = () => {
               <p className="m-0">— James Thompson, Writer</p>
             </div>
             <img
-              class="absolute -top-14 left-1/2 transform -translate-x-1/2 w-[70px] h-[70px] lg:w-[124px] lg:h-[124px] object-cover z-[2]"
+              className="absolute -top-14 left-1/2 transform -translate-x-1/2 w-[70px] h-[70px] lg:w-[124px] lg:h-[124px] object-cover z-[2]"
               alt=""
               src="/mask-group-1@2x.png"
             />
@@ -88,7 +88,7 @@ const Testimonial = () => {
               </div>
             </div>
             <img
-              class="absolute -top-4 left-1/2 transform -translate-x-1/2 w-[70px] h-[70px] lg:w-[107px] lg:h-[107px] object-cover z-[2]"
+              className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-[70px] h-[70px] lg:w-[107px] lg:h-[107px] object-cover z-[2]"
               alt=""
               src="/mask-group@2x.png"
             ></img>

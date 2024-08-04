@@ -90,13 +90,13 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <div class="absolute top-[0px] left-[380px] rounded-2xs [background:linear-gradient(180deg,_#d9d9d9,_#737373)] border-black border-[0px] border-solid box-border w-[708px] flex flex-row items-start justify-start pt-[212px] px-[266px] pb-[211px] max-w-full z-[1]">
+          <div className="absolute top-[0px] left-[380px] rounded-2xs [background:linear-gradient(180deg,_#d9d9d9,_#737373)] border-black border-[0px] border-solid box-border w-[708px] flex flex-row items-start justify-start pt-[212px] px-[266px] pb-[211px] max-w-full z-[1]">
             <img
-              class="h-[475px] w-[708px] relative rounded-2xs hidden max-w-full"
+              className="h-[475px] w-[708px] relative rounded-2xs hidden max-w-full"
               alt=""
               src="/rectangle-46.svg"
             />
-            <div class="relative leading-[52px] capitalize font-semibold z-[2] ">
+            <div className="relative leading-[52px] capitalize font-semibold z-[2] ">
               slide show
             </div>
           </div>

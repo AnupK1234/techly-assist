@@ -107,35 +107,32 @@ export default function Home() {
             />
           </div>
 
-          <div className="relative lg:h-[80px] flex justify-center items-center mt-32">
-            <button className="cursor-pointer border-lightblue border-[2px] border-solid py-[15px] px-6 text-[20px] font-h1 font-[600] bg-[#2FEEEE] hover:bg-lightseagreen-200 rounded-[82px] mr-6 h-[75px] w-[276px]">
+          <div className="px-4 relative lg:h-[80px] flex justify-center items-center mt-32">
+            <button className="cursor-pointer border-lightblue border-[2px] border-solid py-[15px] px-6 text-base lg:text-[20px] font-h1 font-[600] bg-[#2FEEEE] hover:bg-lightseagreen-200 rounded-[82px] mr-6 h-[75px] w-[276px]">
               JOIN THE WAITLIST
             </button>
-            <button className="cursor-pointer border-[#ADEBFF] border-[2px] border-solid py-[15px] px-6 text-[20px] font-h1 font-[600] rounded-[82px] text-white h-[75px] w-[276px]">
+            <button className="cursor-pointer border-[#ADEBFF] border-[2px] border-solid py-[15px] px-6 text-base lg:text-[20px] font-h1 font-[600] rounded-[82px] text-white h-[75px] w-[276px]">
               LEARN MORE
             </button>
           </div>
 
           <div
             className="w-full flex flex-col text-aqua-100 font-poppins mt-40"
-            style={{ border: "2px solid red" }}
           >
             <div
-              className="w-56 flex flex-row items-start justify-start py-0 px-[15px] tracking-[0.18em] ml-52"
-              style={{ border: "2px solid red" }}
+              className="w-full lg:w-56 text-5xl lg:text-base flex flex-row items-start justify-center lg:justify-start py-0 px-[15px] tracking-[0.18em] lg:ml-52"
             >
               FEATURES
             </div>
             <div
-              className="text-white text-center text-29xl font-roboto"
-              style={{ border: "2px solid red" }}
+              className="text-white text-center text-19xl lg:text-29xl font-roboto"
             >
               <p className="m-0">
                 <b className="tracking-[-0.25px]">
                   Join a Community Where Your Story Comes to Life
                 </b>
               </p>
-              <p className="m-0 text-17xl tracking-[8px]">
+              <p className="m-0 text-13xl  lg:text-17xl tracking-[8px]">
                 Faster Than It Ever Has Before
               </p>
             </div>

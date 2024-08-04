@@ -4,15 +4,15 @@ import Rectangle53 from "../../public/rectangle-53.svg";
 const Features = () => {
   return (
     <>
-      <div className="flex flex-col mt-32 justify-center items-center">
-        <div className="w-[1273px] flex flex-row items-end justify-start gap-[25px] max-w-full text-center text-7xl text-gainsboro font-poppins">
-          <div className="w-[509px] shadow-[2px_0px_0px_#808080] rounded-xl bg-gray-200 flex flex-col items-start justify-start pt-[142px] px-5 pb-[101px] box-border gap-1.5 min-w-[509px] max-w-full z-[1]">
-            <div className="w-[509px] h-[477px] relative shadow-[2px_0px_0px_#808080] rounded-xl bg-gray-200 hidden max-w-full"></div>
-            <div className="w-[402.2px] relative tracking-[2px] leading-[28px] font-extrabold inline-block [text-shadow:0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_2px_6px_2px_rgba(0,_0,_0,_0.15)] [transform:_rotate(0.5deg)] max-w-full z-[2]">
+      <div className="w-full flex flex-col mt-5 lg:mt-32 justify-center items-center">
+
+        <div className="w-screen lg:w-[1273px] flex flex-col lg:flex-row items-center justify-center lg:items-end lg:justify-start gap-[25px] max-w-full text-center text-7xl text-gainsboro font-poppins">
+          <div className="relative w-full lg:w-[509px] shadow-[2px_0px_0px_#808080] rounded-xl bg-gray-200 flex flex-col items-start justify-start lg:pt-[142px] lg:px-5 lg:pb-[101px] box-border gap-1.5 lg:min-w-[509px] max-w-full z-[1]">
+            <div className="lg:w-[402.2px] relative tracking-[2px] leading-[28px] font-extrabold inline-block [text-shadow:0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_2px_6px_2px_rgba(0,_0,_0,_0.15)] [transform:_rotate(0.5deg)] max-w-full z-[2]">
               {" "}
               Meet The Muse Collective{" "}
             </div>
-            <div className="w-[439px] flex flex-row items-start justify-start py-0 px-2.5 box-border max-w-full text-left text-lg text-whitesmoke">
+            <div className="lg:w-[439px] flex flex-row items-start justify-start py-0 px-2.5 box-border max-w-full text-left text-lg text-whitesmoke">
               <div className="flex-1 flex flex-row items-start justify-start relative max-w-full">
                 <div className="flex-1 relative leading-[28px] font-light inline-block max-w-full z-[2]">
                   Your team of specialized writing companions. Guided by Athena,
@@ -23,7 +23,7 @@ const Features = () => {
                   your writing.
                 </div>
                 <img
-                  className="h-[46px] w-12 absolute !m-[0] top-[-38px] right-[-41px] object-cover z-[3]"
+                  className="h-[46px] w-12 absolute -top-14 right-0 lg:top-[-38px] lg:right-[-41px] object-cover z-[3]"
                   loading="lazy"
                   alt=""
                   src="/6056254200-1-2@2x.png"
@@ -32,14 +32,16 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="h-[484px] flex-1 relative min-w-[480px] max-w-full z-[3] text-center text-13xl text-black font-h1">
-            <div className="absolute top-[0px] left-[0px] [filter:blur(4px)] rounded-2xs bg-aqua-100 w-full h-full"></div>
-            <Rectangle53 className="absolute w-[calc(100%_-_11px)] top-[7px] right-[5px] left-[6px] rounded-2xs max-w-full overflow-hidden h-[471px] z-[1]" />
-            <b className="absolute top-[231px] left-[311px] inline-block min-w-[81px] z-[2]">
+          <div className="h-[484px] flex-1 relative w-full lg:min-w-[480px] max-w-full z-[3] text-center text-13xl text-black font-h1">
+            <div className="absolute top-[0px] left-[0px] [filter:blur(4px)] rounded-2xs bg-aqua-100 w-full h-full z-[-1]"></div>
+            <Rectangle53 className="h-full lg:absolute lg:w-[calc(100%_-_11px)] lg:top-[7px] lg:right-[5px] lg:left-[6px] rounded-2xs max-w-full overflow-hidden lg:h-[471px] z-[3]" />
+            <b className="absolute top-1/2 left-1/2 lg:absolute lg:top-[231px] lg:left-[311px] inline-block lg:min-w-[81px] z-[3]">
               video
             </b>
           </div>
         </div>
+
+
 
         <div className="w-[1273px] flex flex-row items-end justify-start gap-[25px] max-w-full text-center text-7xl text-gainsboro font-poppins mt-28">
           <div className="h-[484px] flex-1 relative min-w-[480px] max-w-full z-[3] text-center text-13xl text-black font-h1">
@@ -84,7 +86,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="w-[1273px] flex flex-row items-end justify-start gap-[25px] max-w-full text-center text-7xl text-gainsboro font-poppins mt-28">
+        {/* <div className="w-[1273px] flex flex-row items-end justify-start gap-[25px] max-w-full text-center text-7xl text-gainsboro font-poppins mt-28">
           <div className="w-[509px] shadow-[2px_0px_0px_#808080] rounded-xl bg-gray-200 flex flex-col items-start justify-start pt-[142px] px-5 pb-[101px] box-border gap-1.5 min-w-[509px] max-w-full z-[1]">
             <div className="w-[509px] h-[477px] relative shadow-[2px_0px_0px_#808080] rounded-xl bg-gray-200 hidden max-w-full"></div>
             <div className="w-[402.2px] relative tracking-[2px] leading-[28px] font-extrabold inline-block [text-shadow:0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_2px_6px_2px_rgba(0,_0,_0,_0.15)] [transform:_rotate(0.5deg)] max-w-full z-[2]">
@@ -116,6 +118,41 @@ const Features = () => {
             <div className="absolute top-[0px] left-[0px] [filter:blur(4px)] rounded-2xs bg-aqua-100 w-full h-full"></div>
             <Rectangle53 className="absolute w-[calc(100%_-_11px)] top-[7px] right-[5px] left-[6px] rounded-2xs max-w-full overflow-hidden h-[471px] z-[1]" />
             <b className="absolute top-[231px] left-[311px] inline-block min-w-[81px] z-[2]">
+              video
+            </b>
+          </div>
+        </div> */}
+        <div className="mt-24 w-screen lg:w-[1273px] flex flex-col lg:flex-row items-center justify-center lg:items-end lg:justify-start gap-[25px] max-w-full text-center text-7xl text-gainsboro font-poppins">
+          <div className="relative w-full lg:w-[509px] shadow-[2px_0px_0px_#808080] rounded-xl bg-gray-200 flex flex-col items-start justify-start lg:pt-[142px] lg:px-5 lg:pb-[101px] box-border gap-1.5 lg:min-w-[509px] max-w-full z-[1]">
+            <div className="lg:w-[402.2px] relative tracking-[2px] leading-[28px] font-extrabold inline-block [text-shadow:0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_2px_6px_2px_rgba(0,_0,_0,_0.15)] [transform:_rotate(0.5deg)] max-w-full z-[2]">
+              {" "}
+              Gamified Writing Journey{" "}
+            </div>
+            <div className="lg:w-[439px] flex flex-row items-start justify-start py-0 px-2.5 box-border max-w-full text-left text-lg text-whitesmoke">
+              <div className="flex-1 flex flex-row items-start justify-start relative max-w-full">
+                <div className="flex-1 relative leading-[28px] font-light inline-block max-w-full z-[2]">
+                <span className="font-semibold">
+                    Level Up Your Writing Career
+                  </span>
+                  : Earn XP and unlock achievements as you write. Your XP
+                  accumulates to enhance your profile, showcasing your
+                  dedication and skill, making you a more attractive
+                  collaborator in the FlowWrite community.
+                </div>
+                <img
+                  className="h-[46px] w-12 absolute -top-14 right-0 lg:top-[-38px] lg:right-[-41px] object-cover z-[3]"
+                  loading="lazy"
+                  alt=""
+                  src="/game-4@2x.png"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className= "h-[484px] flex-1 relative w-full lg:min-w-[480px] max-w-full z-[3] text-center text-13xl text-black font-h1">
+            <div className="absolute top-[0px] left-[0px] [filter:blur(4px)] rounded-2xs bg-aqua-100 w-full h-full z-[-1]"></div>
+            <Rectangle53 className="h-full lg:absolute lg:w-[calc(100%_-_11px)] lg:top-[7px] lg:right-[5px] lg:left-[6px] rounded-2xs max-w-full overflow-hidden lg:h-[471px] z-[3]" />
+            <b className="absolute top-1/2 left-1/2 lg:absolute lg:top-[231px] lg:left-[311px] inline-block lg:min-w-[81px] z-[3]">
               video
             </b>
           </div>
@@ -153,7 +190,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="w-[1273px] flex flex-row items-end justify-start gap-[25px] max-w-full text-center text-7xl text-gainsboro font-poppins">
+        {/* <div className="w-[1273px] flex flex-row items-end justify-start gap-[25px] max-w-full text-center text-7xl text-gainsboro font-poppins">
           <div className="w-[509px] shadow-[2px_0px_0px_#808080] rounded-xl bg-gray-200 flex flex-col items-start justify-start pt-[142px] px-5 pb-[101px] box-border gap-1.5 min-w-[509px] max-w-full z-[1]">
             <div className="w-[509px] h-[477px] relative shadow-[2px_0px_0px_#808080] rounded-xl bg-gray-200 hidden max-w-full"></div>
             <div className="w-[402.2px] relative tracking-[2px] leading-[28px] font-extrabold inline-block [text-shadow:0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_2px_6px_2px_rgba(0,_0,_0,_0.15)] [transform:_rotate(0.5deg)] max-w-full z-[2]">
@@ -192,7 +229,49 @@ const Features = () => {
               video
             </b>
           </div>
+        </div>  */}
+
+        <div className="mt-24 w-screen lg:w-[1273px] flex flex-col lg:flex-row items-center justify-center lg:items-end lg:justify-start gap-[25px] max-w-full text-center text-7xl text-gainsboro font-poppins">
+          <div className="relative w-full lg:w-[509px] shadow-[2px_0px_0px_#808080] rounded-xl bg-gray-200 flex flex-col items-start justify-start lg:pt-[142px] lg:px-5 lg:pb-[101px] box-border gap-1.5 lg:min-w-[509px] max-w-full z-[1]">
+            <div className="lg:w-[402.2px] relative tracking-[2px] leading-[28px] font-extrabold inline-block [text-shadow:0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_2px_6px_2px_rgba(0,_0,_0,_0.15)] [transform:_rotate(0.5deg)] max-w-full z-[2]">
+              {" "}
+              Agent Matchmaking{" "}
+            </div>
+            <div className="w-[267px] flex flex-row items-start justify-start py-0 px-[23px] box-border text-xl text-aqua-100">
+              <div className="flex-1 relative tracking-[0.18em] leading-[25px] z-[2] mq450:text-base mq450:leading-[20px]">{`COMING SOON `}</div>
+            </div>
+            <div className="lg:w-[439px] flex flex-row items-start justify-start py-0 px-2.5 box-border max-w-full text-left text-lg text-whitesmoke">
+              <div className="flex-1 flex flex-row items-start justify-start relative max-w-full">
+                <div className="flex-1 relative leading-[28px] font-light inline-block max-w-full z-[2]">
+                <span className="font-medium">Fast-Track to Publication</span>
+                  <span className="font-light">
+                    : Get discovered by literary agents looking for your unique
+                    voice. Our intelligent matching system connects you with
+                    agents specializing in your genre, increasing your chances
+                    of turning your manuscript into a published work– saving
+                    tons of time for both parties.
+                  </span>
+                </div>
+                <img
+                  className="h-[46px] w-12 absolute -top-14 right-0 lg:top-[-38px] lg:right-[-41px] object-cover z-[3]"
+                  loading="lazy"
+                  alt=""
+                  src="/tie.png"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="h-[484px] flex-1 relative w-full lg:min-w-[480px] max-w-full z-[3] text-center text-13xl text-black font-h1">
+            <div className="absolute top-[0px] left-[0px] [filter:blur(4px)] rounded-2xs bg-aqua-100 w-full h-full z-[-1]"></div>
+            <Rectangle53 className="h-full lg:absolute lg:w-[calc(100%_-_11px)] lg:top-[7px] lg:right-[5px] lg:left-[6px] rounded-2xs max-w-full overflow-hidden lg:h-[471px] z-[3]" />
+            <b className="absolute top-1/2 left-1/2 lg:absolute lg:top-[231px] lg:left-[311px] inline-block lg:min-w-[81px] z-[3]">
+              video
+            </b>
+          </div>
         </div>
+
+
       </div>
     </>
   );

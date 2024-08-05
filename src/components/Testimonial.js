@@ -9,9 +9,9 @@ const Testimonial = () => {
           src="/group-967.svg"
         />
 
-        <div className="lg:mt-24 flex flex-row max-w-full text-center lg:text-49xl text-white font-poppins">
-          <div className="ml-44 flex flex-col items-start justify-start py-0 pl-5 pr-0 box-border gap-[20px]">
-            <h1 className="m-0 relative text-inherit tracking-[6px] leading-[52px] font-semibold font-[inherit]">
+        <div className="border border-red-500 lg:mt-24 flex flex-row max-w-full text-center lg:text-49xl text-white font-poppins">
+          <div className="lg:ml-44 flex flex-col lg:items-start lg:justify-start py-0 lg:pl-5 pr-0 box-border gap-[20px]">
+            <h1 className="w-full border border-blue-500 text-center m-0 relative text-inherit tracking-[6px] leading-[52px] font-semibold font-[inherit]">
               What Our Users Say
             </h1>
             <div className="w-[505px] relative text-5xl tracking-[0.15em] capitalize font-h1 inline-block max-w-full">

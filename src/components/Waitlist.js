@@ -3,16 +3,16 @@ const Waitlist = () => {
   return (
     <>
       <div className="lg:mt-40 lg:min-h-[500px] flex flex-col">
-        <div className="lg:w-full text-center m-0 lg:text-[40px] font-bold lg:tracking-[0.1em] capitalize lg:inline-block text-gainsboro font-roboto">
+        <div className="text-[20px] lg:w-full text-center m-0 lg:text-[40px] font-bold lg:tracking-[0.1em] capitalize lg:inline-block text-gainsboro font-roboto">
           Be the First to Experience the Future of Storytelling
         </div>
 
-        <div className="lg:text-[96px] lg:tracking-[0.02em] text-center capitalize font-bold !bg-clip-text [background:linear-gradient(181.68deg,_#d9d9d9_7.1%,_#a6a6a6_40.5%,_#c0c0c0_68%,_#fff_99.6%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+        <div className="text-[32px] lg:text-[96px] lg:tracking-[0.02em] text-center capitalize font-bold !bg-clip-text [background:linear-gradient(181.68deg,_#d9d9d9_7.1%,_#a6a6a6_40.5%,_#c0c0c0_68%,_#fff_99.6%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
           Join the Waitlist Now
         </div>
 
-        <div className="lg:text-center lg:w-full">
-          <div className="lg:text-[20px] text-lightgray w-[643px] tracking-[0.2em] leading-[149.88%] font-light inline-block">
+        <div className="w-full lg:text-center lg:w-full">
+          <div className="lg:text-[20px] text-lightgray lg:w-[643px] tracking-[0.2em] leading-[149.88%] font-light inline-block">
             Early access to the platform. Exclusive writing challenge.
             Opportunity to shape FlowWrite&apos;s development.Connect with a
             community of passionate writers
@@ -20,45 +20,46 @@ const Waitlist = () => {
         </div>
 
         <div className="lg:mt-10 flex flex-col items-center justify-center">
-          <form className="flex flex-col items-start justify-center lg:w-[855px]">
+          <form className="flex flex-col w-full items-start justify-center lg:w-[855px]">
             <input
               type="text"
               placeholder="Name"
-              className="lg:w-[855px] lg:h-[87px] border border-[#4A4A4A] rounded-[8px] pl-4 placeholder-darkgray text-[#AFAFAF] font-roboto lg:text-[24px] bg-[#1E1E1E80]"
+              className="mt-3 lg:mx-0 w-full text-center lg:text-start lg:w-[855px] lg:h-[87px] border border-[#4A4A4A] rounded-[8px] lg:pl-4 placeholder-darkgray text-[#AFAFAF] font-roboto text-[26px] lg:text-[24px] bg-[#1E1E1E80]"
             />
             <input
               type="email"
               placeholder="Email"
-              className="lg:mt-8 lg:w-[855px] lg:h-[87px] border border-[#4A4A4A] rounded-[8px] pl-4 placeholder-darkgray text-[#AFAFAF] font-roboto lg:text-[24px] bg-[#1E1E1E80]"
+              className="mt-3 lg:mx-0 w-full text-center lg:text-start  lg:mt-8 lg:w-[855px] lg:h-[87px] border border-[#4A4A4A] rounded-[8px] lg:pl-4 placeholder-darkgray text-[#AFAFAF] font-roboto text-[26px]  lg:text-[24px] bg-[#1E1E1E80]"
             />
 
-            <div className="lg:w-full flex flex-row">
+            <div className="w-full lg:w-full flex flex-col lg:flex-row">
             <input
               type="text"
               placeholder="Writer"
-              className="lg:mt-8 lg:w-[855px] lg:h-[87px] border border-[#4A4A4A] rounded-[8px] pl-4 placeholder-darkgray text-[#AFAFAF] font-roboto lg:text-[24px] bg-[#1E1E1E80] text-center lg:mr-5"
+              className="mt-3 lg:mx-0 w-full lg:mt-8 lg:w-[855px] lg:h-[87px] border border-[#4A4A4A] rounded-[8px] lg:pl-4 placeholder-darkgray text-[#AFAFAF] font-roboto text-[26px] lg:text-[24px] bg-[#1E1E1E80] text-center lg:mr-5"
             />
             <input
               type="text"
               placeholder="Literary Agent"
-              className="lg:mt-8 lg:w-[855px] lg:h-[87px] border border-[#4A4A4A] rounded-[8px] pl-4 placeholder-darkgray text-[#AFAFAF] font-roboto lg:text-[24px] bg-[#1E1E1E80] text-center"
+              className="mt-3 lg:mx-0 w-full lg:mt-8 lg:w-[855px] lg:h-[87px] border border-[#4A4A4A] rounded-[8px] lg:pl-4 placeholder-darkgray text-[#AFAFAF] font-roboto text-[26px] lg:text-[24px] bg-[#1E1E1E80] text-center"
             />
             </div>
 
             <input
               type="text"
               placeholder="Preferred Genres"
-              className="lg:mt-8 lg:w-[855px] lg:h-[87px] border border-[#4A4A4A] rounded-[8px] pl-4 placeholder-darkgray text-[#AFAFAF] font-roboto lg:text-[24px] bg-[#1E1E1E80]"
+              className="mt-3 lg:mx-0 w-full text-center lg:text-start  lg:mt-8 lg:w-[855px] lg:h-[87px] border border-[#4A4A4A] rounded-[8px] pl-4 placeholder-darkgray text-[#AFAFAF] font-roboto text-[26px] lg:text-[24px] bg-[#1E1E1E80]"
             />
 
-            <div className="text-white font-poppins font-bold lg:text-17xl lg:w-full lg:text-center lg:mt-10">
+            <div className="text-white font-poppins font-bold lg:text-17xl w-full text-center mt-4 lg:mt-10">
             Embark on Your Writing Journey
               </div>        
 
-            <button type="submit" className="bg-mediumturquoise border border-[#4A4A4A] font-roboto font-extrabold rounded-[8px] tracking-[0.25rem] lg:w-full lg:h-[87px] lg:text-[24px] lg:mt-10">
-            SUBMIT
-            </button>
-
+            <div className="flex flex-row justify-center items-center w-full">
+              <button type="submit" className="m-4 lg:m-0 p-2 bg-mediumturquoise border border-[#4A4A4A] font-roboto font-extrabold rounded-[8px] tracking-[0.25rem] w-full lg:h-[87px] text-[26px] lg:text-[24px] lg:mt-10">
+                SUBMIT
+              </button>
+            </div>
 
           </form>
         </div>
